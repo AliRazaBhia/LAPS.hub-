@@ -7,10 +7,10 @@ import { store } from './Store.js'
 import { Toaster } from 'react-hot-toast'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+
     <Provider store={store}>
       <App />
       <Toaster/>
     </Provider>
-  </StrictMode>,
+  
 )
