@@ -1,0 +1,73 @@
+
+.main_preview{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 6rem;
+    font-family: "inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 50%;
+    /* background-color: black; */
+}
+
+.sizes_main_div{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.size_head{
+    font-size: larger;
+    font-weight: bolder;
+}
+#choose_size{
+    /* background-color: purple; */
+    padding:.5rem 2rem;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+.allSizes{
+    background-color: transparent;
+    border: white .1px solid;
+    padding: .2rem 1rem;
+}
+.right{
+    width:50% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0rem 1rem;
+}
+.brand_name_etc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: large;
+    font-weight: bolder;
+    width: 100%;
+}
+.main_desc{
+    display: flex;
+}
+.description {
+        text-align: left;
+        font-size: large;
+        font-weight: medium;
+        
+}
+.add_to_cart{
+    background-color: brown;
+    padding:.2rem 2rem;
+    font-weight: bolder;
+    border-radius: .3rem;
+}
