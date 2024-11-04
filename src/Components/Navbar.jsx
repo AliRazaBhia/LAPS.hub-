@@ -19,7 +19,7 @@ const Navbar = () => {
                      <span>Cart</span>
                      {cart.length > 0 && (
                 <span
-                  className="absolute -top-1 -right-2 bg-green-600 text-xs w-4 h-4 
+                  className="absolute -top-1 -right-2 bg-yellow-600 text-xs w-4 h-4 
                   flex justify-center items-center animate-bounce rounded-full text-white"
                 >
                   {cart.length}

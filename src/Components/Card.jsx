@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 const Card = ({ shoe }) => {
   let cart = useSelector((state) => state.Cart);
   const img = shoe.original_picture_url;
-  const price = shoe.retail_price_cents;
+  const price = shoe.retail_price_cents
   const descri = shoe.story_html;
   const id = shoe.id;
 
